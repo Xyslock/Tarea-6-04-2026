@@ -2,7 +2,7 @@
 	<title>Prueba Lectiva</title>
 	<meta
 		name="description"
-		content="Base SvelteKit con arquitectura feature-first/domain-first para integrar Rick and Morty."
+		content="Prueba de actividad con api utilizado integrar con IA"
 	/>
 </svelte:head>
 
