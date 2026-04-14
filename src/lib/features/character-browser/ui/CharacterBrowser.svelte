@@ -8,10 +8,10 @@
 </script>
 
 <section class="hero">
-	<div class="eyebrow">SvelteKit · Rick and Morty</div>
-	<h1>Arquitectura frontend lista para crecer sin mezclar UI con negocio.</h1>
+	<div class="eyebrow">Actividad 2 · CI / CD</div>
+	<h1>Prueba de Despliegue en GitHub Pages</h1>
 	<p>
-		Base feature-first/domain-first con contratos claros entre pantalla, dominio y API.
+		Sincronización automática de pipeline configurada de forma exitosa usando GitHub Actions para la entrega de la actividad.
 	</p>
 </section>
 
