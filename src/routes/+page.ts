@@ -1,4 +1,4 @@
-import type { PageServerLoad } from './$types';
+import type { PageLoad } from './$types';
 import { listCharacters, type CharacterFilters } from '$lib/core/api/rick-and-morty';
 
 function readFilters(url: URL): CharacterFilters {
@@ -16,7 +16,7 @@ function readFilters(url: URL): CharacterFilters {
 	};
 }
 
-export const load: PageServerLoad = async ({ fetch, url }) => {
+export const load: PageLoad = async ({ fetch, url }) => {
 	const filters = readFilters(url);
 	const query = filters.name ?? '';
 
